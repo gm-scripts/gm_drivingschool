@@ -1,15 +1,15 @@
-const webpack = require('webpack');
-const path = require('path');
+const webpack = require("webpack");
+const path = require("path");
 
-const buildPath = path.resolve(__dirname, 'testdist');
+const buildPath = path.resolve(__dirname, "dist");
 
 const server = {
-  entry: './src/server/entry.ts',
+  entry: "./src/server/entry.ts",
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: ['ts-loader', 'eslint-loader'],
+        use: ["ts-loader", "eslint-loader"],
         exclude: /node_modules/,
       },
     ],
@@ -18,22 +18,22 @@ const server = {
     minimize: true,
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: 'main.js',
-    path: path.resolve(buildPath, 'server')
+    filename: "main.js",
+    path: path.resolve(buildPath, "server"),
   },
-  target: 'node',
+  target: "node",
 };
 
 const client = {
-  entry: './src/client/entry.ts',
+  entry: "./src/client/entry.ts",
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: ['ts-loader', 'eslint-loader'],
+        use: ["ts-loader", "eslint-loader"],
         exclude: /node_modules/,
       },
     ],
@@ -42,11 +42,11 @@ const client = {
     minimize: true,
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: 'main.js',
-    path: path.resolve(buildPath, 'client'),
+    filename: "main.js",
+    path: path.resolve(buildPath, "client"),
   },
 };
 

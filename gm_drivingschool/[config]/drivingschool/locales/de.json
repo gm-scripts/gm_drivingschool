@@ -42,6 +42,7 @@
       "nextButtonLabel": "Schließen"
     }
   },
+  "choose_exam": "Wähle deine Prüfung",
   "checkPoints": {
     "next_point_speed": "Fahre zum nächsten Punkt! Geschwindigkeitsbegrenzung: ~y~_limit_",
     "go_next_point": "Fahre zum nächsten Punkt!",

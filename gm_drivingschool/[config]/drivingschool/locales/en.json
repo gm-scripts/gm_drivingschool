@@ -42,6 +42,7 @@
         "nextButtonLabel": "Close"
       }
     },
+    "choose_exam": "Choose an exam",
     "checkPoints": {
       "next_point_speed": "Drive to the next point! Speed limit: ~y~_limit_",
       "go_next_point": "Drive to the next point!",

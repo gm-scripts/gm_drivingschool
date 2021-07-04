@@ -114,6 +114,7 @@ const langValidator: string[] = [
   "mistakes",
   "passed",
   "failed",
+  "choose_exam",
 ];
 
 const checkConf = (): void => {

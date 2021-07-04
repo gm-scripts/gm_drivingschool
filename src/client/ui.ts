@@ -82,6 +82,16 @@ on("__cfx_nui:lang/test", (data, cb) => {
   });
 });
 
+RegisterNuiCallbackType("lang/popuptitle");
+on("__cfx_nui:lang/popuptitle", (data, cb) => {
+  const interval = setTick(() => {
+    if (isConfigSynced) {
+      cb({"title": lang["choose_exam"]});
+      clearTick(interval);
+    }
+  });
+});
+
 RegisterNuiCallbackType("config");
 on("__cfx_nui:config", (data, cb) => {
   const interval = setTick(() => {

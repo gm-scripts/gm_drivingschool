@@ -1,0 +1,60 @@
+{
+  "blip_title": "Fahrschule",
+  "press_e_theory": "Drücke ~INPUT_CONTEXT~ um deine Theorieprüfung für _price_$ zu machen",
+  "press_e": "Drücke ~INPUT_CONTEXT~ um einen Führerschein zu machen",
+  "no_exams": "Du hast bereits alle Prüfungen absolviert",
+  "currency": "_price_$",
+  "free": "Kostenlos",
+  "menu": {
+    "exams": {
+      "car": "Autoführerschein",
+      "bike": "Motorradführerschein",
+      "bus": "Busführerschein",
+      "truck": "Lkwführerschein"
+    },
+    "welcome": {
+      "header": "Willkommen in der Fahrschule!",
+      "title": "Die theoretische Fahrprüfung",
+      "paragraphs": [
+        "Nachdem du deine theoretische Fahrprüfung bestanden hast, wirst du eine praktische machen müssen.",
+        "Viel Glück!"
+      ],
+      "nextButtonLabel": "Beginnen"
+    },
+    "test": {
+      "nextButtonLabel": "Weiter"
+    },
+    "failed": {
+      "header": "Gescheitert",
+      "title": "Du hast die Prüfung nicht bestanden!",
+      "paragraphs": [
+        "Viel glück bei nächsten mal!",
+        "Du kannst die Prüfung erneut versuchen."
+      ],
+      "nextButtonLabel": "Schließen"
+    },
+    "passed": {
+      "header": "Bestanden",
+      "title": "Du hast die theoretische Fahrprüfung bestanden!",
+      "paragraphs": [
+        "Du musst jetzt deine praktische Prüfung absolvieren, um einen gültigen Führerschein zu erhalten."
+      ],
+      "nextButtonLabel": "Schließen"
+    }
+  },
+  "checkPoints": {
+    "next_point_speed": "Fahre zum nächsten Punkt! Geschwindigkeitsbegrenzung: ~y~_limit_",
+    "go_next_point": "Fahre zum nächsten Punkt!",
+    "stop_for_ped": "~r~Halte an~s~ für die ~y~Fussgängerüberquerung",
+    "good_lets_cont": "~g~Gut~s~, weiter so",
+    "stop_look_left": "~r~Stoppen~s~ und ~y~links~s~ schauen",
+    "good_turn_right": "~g~Gut~s~, nun biege rechts ab und folge der Linie",
+    "watch_traffic_lightson": "Achte auf den Verkehr und ~y~schalte deine Lichter an!~s~",
+    "stop_for_passing": "~r~Stop~s~ für vorbeifahrende Fahrzeuge!"
+  },
+  "too_fast": "~r~Du fährst zu schnell! Geschwindigkeitsbegrenzung _limit_",
+  "damaged": "~r~Du hast das Fahrzeug beschädigt",
+  "mistakes": "~r~Fehler: _mistakes_/_max_",
+  "passed": "Du hast die Prüfung bestanden",
+  "failed": "Du hast die Prüfung nicht bestanden, viel Glück beim nächsten mal"
+}

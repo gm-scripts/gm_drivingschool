@@ -1,0 +1,56 @@
+[
+    {
+      "header": "Question 1/6",
+      "question": "Before every lane change you must:",
+      "a": "Check your mirrors",
+      "b": "Check your blind spots",
+      "c": "Signal your intentions",
+      "d": "All of the above",
+      "correct": "d"
+    },
+    {
+      "header": "Question 2/6",
+      "question": "If someone calls you while you are driving what do you do?",
+      "a": "Set warning lights",
+      "b": "Reject the call and write a message that you are not available",
+      "c": "Ignore",
+      "d": "Play a mobile game",
+      "correct": "c"
+    },
+    {
+      "header": "Question 3/6",
+      "question": "When do you go through a traffic light?",
+      "a": "Always",
+      "b": "When no one crosses the road",
+      "c": "Only when your lights are on",
+      "d": "When it is green",
+      "correct": "d"
+    },
+    {
+      "header": "Question 4/6",
+      "question": "When the police are following you with blue lights, what do you do?",
+      "a": "You accelerate and try to escape",
+      "b": "You take out your gun and shoot the vehicle",
+      "c": "You pull over and follow the instructions of the officers",
+      "d": "You make a full stop",
+      "correct": "c"
+    },
+    {
+      "header": "Question 5/6",
+      "question": "You are driving on a highway which indicates a maximum speed of 120km/h Most traffic drives at 130km/h, so you should not drive faster than:",
+      "a": "120 km/h",
+      "b": "125 km/h",
+      "c": "130 km/h",
+      "d": "180 km/h",
+      "correct": "a"
+    },
+    {
+      "header": "Question 6/6",
+      "question": "You come out of a club drunk, what do you do?",
+      "a": "You drive with your car, since you came here with it too",
+      "b": "You drive your car and turn on the hazard lights",
+      "c": "You call the police or a paramedic to drive you home.",
+      "d": "You ask a friend or call a cab to get home",
+      "correct": "d"
+    }
+  ]

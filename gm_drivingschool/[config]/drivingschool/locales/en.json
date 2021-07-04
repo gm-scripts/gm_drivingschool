@@ -1,0 +1,60 @@
+{
+    "blip_title": "Driving school",
+    "press_e_theory": "Press ~INPUT_CONTEXT~ to do your theory check for $_price_",
+    "press_e": "Press ~INPUT_CONTEXT~ to make a driving check",
+    "no_exams": "You have already completed all exams",
+    "currency": "$_price_",
+    "free": "free",
+    "menu": {
+      "exams": {
+        "car": "Car driving license",
+        "bike": "Motorcycle license",
+        "bus": "Bus driver's license",
+        "truck": "Truck driving license"
+      },
+      "welcome": {
+        "header": "Welcome to the driving school!",
+        "title": "The theoretical driving test",
+        "paragraphs": [
+          "After you have passed your theoretical driving test, you will have to take a practical one.",
+          "Good luck!"
+        ],
+        "nextButtonLabel": "Start"
+      },
+      "test": {
+        "nextButtonLabel": "Next"
+      },
+      "failed": {
+        "header": "Failed",
+        "title": "You have not passed the exam!",
+        "paragraphs": [
+          "Better luck next time!",
+          "You can try the exam again."
+        ],
+        "nextButtonLabel": "Close"
+      },
+      "passed": {
+        "header": "Passed",
+        "title": "You have passed the theoretical driving test!",
+        "paragraphs": [
+          "You must now take your practical test to obtain a valid driver's license."
+        ],
+        "nextButtonLabel": "Close"
+      }
+    },
+    "checkPoints": {
+      "next_point_speed": "Drive to the next point! Speed limit: ~y~_limit_",
+      "go_next_point": "Drive to the next point!",
+      "stop_for_ped": "~r~Stop~s~ for ~y~pedestrian crossing~s~",
+      "good_lets_cont": "~g~Good~s~, keep it up",
+      "stop_look_left": "~r~Stop~s~ and look ~y~left~s~",
+      "good_turn_right": "~g~Good~s~, now turn right and follow the line",
+      "watch_traffic_lightson": "Watch for traffic and ~y~turn on your lights!~s~",
+      "stop_for_passing": "~r~Stop~s~ for passing vehicles!"
+    },
+    "too_fast": "~r~You are driving too fast! Speed limit _limit_",
+    "damaged": "~r~You have damaged the vehicle",
+    "mistakes": "~r~Mistakes: _mistakes_/_max_",
+    "passed": "You have passed the exam",
+    "failed": "You failed the exam, better luck next time"
+  }

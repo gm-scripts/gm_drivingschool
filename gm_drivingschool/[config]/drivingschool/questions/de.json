@@ -1,0 +1,56 @@
+[
+  {
+    "header": "Frage 1/6",
+    "question": "Bevor du die Spur wechselst, musst du:",
+    "a": "Die Rückspiegel checken",
+    "b": "Die toten Winkel überprüfen",
+    "c": "Blinken",
+    "d": "Alles oben genannte",
+    "correct": "d"
+  },
+  {
+    "header": "Frage 2/6",
+    "question": "Wenn dich jemand anruft während du fährst was machst du?",
+    "a": "Warnblinker einstellen",
+    "b": "Den Anruf ablehnen und eine Nachricht schreiben das du nicht erreichbar bist",
+    "c": "Ignorieren",
+    "d": "Ein Handyspiel spielen",
+    "correct": "c"
+  },
+  {
+    "header": "Frage 3/6",
+    "question": "Wann fährst du über eine Ampel?",
+    "a": "Immer",
+    "b": "Wenn niemand die Strasse überquert",
+    "c": "Nur wenn deine Lichter eingeschaltet sind",
+    "d": "Wenn sie grün ist",
+    "correct": "d"
+  },
+  {
+    "header": "Frage 4/6",
+    "question": "Wenn dir die Polizei mit Blaulicht hinterherfährt, was tust du?",
+    "a": "Du beschleunigst und versuchst zu entkommen",
+    "b": "Du holst deine Waffe raus und schießt auf das Fahrzeug",
+    "c": "Du fährst rechts ran und befolgst die Anweisungen der Beamten",
+    "d": "Du machst eine vollbremsung",
+    "correct": "c"
+  },
+  {
+    "header": "Frage 5/6",
+    "question": "Du fährst auf einer Autobahn mit der Geschwindigkeitsbegrenzung von 120km/h aber alle anderen fahren 130km/h, wie schnell fährst du?",
+    "a": "120 km/h",
+    "b": "125 km/h",
+    "c": "130 km/h",
+    "d": "180 km/h",
+    "correct": "a"
+  },
+  {
+    "header": "Frage 6/6",
+    "question": "Du kommst angetrunken aus einem Club, was machst du?",
+    "a": "Du fährst mit deinem Auto, da du damit auch hergekommen bist",
+    "b": "Du fährst mit deinem Auto und machst die Warnblinker an",
+    "c": "Du rufst die Polizei oder einen Sanitäter damit die dich nach Hause fahren",
+    "d": "Du fragst einen Freund oder rufst ein Taxi um nachhause zu kommen",
+    "correct": "d"
+  }
+]

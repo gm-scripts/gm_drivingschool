@@ -13,6 +13,10 @@ let ESX: unknown;
 
 let lang: unknown = {};
 let conf: unknown = {};
+let quest: unknown = {};
+
+let langLoaded = false
+let questLoaded = false
 
 const wait = (ms: number): Promise<void> => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -37,6 +41,10 @@ serverCallback(`gm_${script}:getLocales`, {}, (locales: unknown) => {
   loadLocales(locales);
 });
 
+serverCallback(`gm_${script}:getQuestions`, {}, (questions: unknown) => {
+  loadQuestions(questions);
+});
+
 serverCallback(`gm_${script}:getConfig`, {}, (config: unknown) => {
   loadConfig(config);
   if (config["framework"] === "esx") {
@@ -49,13 +57,24 @@ serverCallback(`gm_${script}:getConfig`, {}, (config: unknown) => {
 
 const loadLocales = (locales: unknown) => {
   lang = locales;
+  langLoaded = true;
+};
+
+const loadQuestions = (questions: unknown) => {
+  quest = questions;
+  questLoaded = true;
 };
 
 const loadConfig = (config: unknown) => {
   conf = config;
-  configLoaded();
-  checkConf();
-  checkLang();
+  const interval = setTick(() => {
+    if (langLoaded && questLoaded) {
+      configLoaded();
+      checkConf();
+      checkLang();
+      clearTick(interval);
+    }
+  });
 };
 
 const helpText = (text: string): void => {
@@ -89,4 +108,4 @@ const error = (msg: string, type: string): void => {
   }
 };
 
-export { wait, helpText, missionText, notifyText, lang, conf, vRP, vRPTunnel, ESX, error };
+export { wait, helpText, missionText, notifyText, lang, conf, quest, vRP, vRPTunnel, ESX, error };

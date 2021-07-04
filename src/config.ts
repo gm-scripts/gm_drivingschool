@@ -1,1 +1,1 @@
-export const script = "scriptname";
+export const script = "drivingschool";
